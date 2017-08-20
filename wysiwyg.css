@@ -1,0 +1,39 @@
+#container {
+	width: 75% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#container > person:nth-child(even){
+  background: lightyellow;
+}
+
+#container > person:nth-child(odd){
+  background: lightblue;
+}
+
+person {
+	display: inline-block;
+	text-align: center
+
+}
+
+.famous {
+	width: 500px;
+    margin: auto;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+img {
+	height: 300px;
+	width: auto;
+	margin: auto;
+	display: block;
+}
+
+.dotted {
+	border: dotted black 3px;
+
+}
