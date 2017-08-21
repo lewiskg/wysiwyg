@@ -9,6 +9,7 @@ addListnerToInputField();
 //  FUNCTIONs ()  //
 ////////////////////
 
+
 function writeDataArrayToDom() {
 // Loop to create person node and internal elements.  
 // Data array held in wysiwyg_data.js
