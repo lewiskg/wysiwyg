@@ -24,6 +24,7 @@ function writeDataArrayToDom() {
     imgNode.setAttribute('src',`${famousArray[i].image}`);
 
     var sectionNode = document.createElement("section");
+    sectionNode.setAttribute('class', 'bio');
     sectionNode.innerHTML = famousArray[i].bio;
 
     var footerNode = document.createElement("footer");
