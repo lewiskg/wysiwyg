@@ -79,7 +79,8 @@ function addListnerToInputField() {
       }
       else if (document.getElementsByClassName('dotted').length > 0) {
         biographyElement[0].innerHTML = '<p>' + this.value; + '</p>';
-      } else if (e.keyCode===13) {
+      } 
+      else if (e.keyCode===13) {
         document.getElementById('inputField').blur();
         document.getElementById('inputField').value = '';
       }
